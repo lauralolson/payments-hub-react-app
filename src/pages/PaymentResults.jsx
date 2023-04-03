@@ -3,7 +3,7 @@ import React, { useState, useEffect} from 'react'
 function PaymentResults() {
   const [paymentResult, setPaymentResult] = useState(null)
   useEffect(() => {
-    const paymentResults = () => fetch('<YOUR-DEPLOYED-API-LINK>/getPaymentResult')
+    const paymentResults = () => fetch('https://payments-hub-node-api.onrender.com/getPaymentResult')
                          		 .then(res => res.json())
                          		 .then(({ data }) => {
                            		 let dataObj = JSON.parse('{"' + decodeURI(data.replace(/&/g, "\",\"").replace(/=/g,"\":\"")) + '"}')

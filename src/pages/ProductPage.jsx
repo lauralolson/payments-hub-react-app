@@ -19,10 +19,10 @@ function ProductPage() {
    	 fetchProduct()
 
     }, [])
-
+ 
     const getTAC = () => {
    	 let productPrice = product.price.toFixed(2)
-   	 return fetch('<YOUR-DEPLOYED-API-LINK>/getTAC>', {
+   	 return fetch('https://payments-hub-node-api.onrender.com/getTAC>', {
    		 method: 'post',
    		 body: JSON.stringify({
        		 amount: productPrice
