@@ -11,6 +11,9 @@ function Payment() {
 	const TAC = JSON.parse(localStorage.getItem('TAC'))
 	const AMOUNT = JSON.parse(localStorage.getItem('productPrice')).toFixed(2)
 
+	console.log('tac === ', TAC);
+	console.log('amount === ', AMOUNT);
+
   return (
 	<div className='mt-4'>
     	<h3 className='text-center'>Card Payment</h3>
