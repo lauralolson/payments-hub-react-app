@@ -9,7 +9,7 @@ function NavBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <Container className='fixed-top pt-4 pb-2 mx-auto bg-white d-flex justify-content-between'>
+    <Container className='pt-4 pb-2 mx-auto bg-white d-flex justify-content-between'>
       <Link to='/'><h3>My Store</h3></Link>
       <CartModal show={show} handleClose={handleClose} handleShow={handleShow} />
     </Container>
