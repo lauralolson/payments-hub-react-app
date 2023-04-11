@@ -9,7 +9,7 @@ function Payment() {
 	const [cvv, setCvv] = useState('123')
 
 	const TAC = JSON.parse(localStorage.getItem('TAC'))
-	console.log('localStorage ==', JSON.parse(localStorage));
+	console.log('localStorage ==', localStorage);
 	//const AMOUNT = JSON.parse(localStorage.getItem('product.price')).toFixed(2)
 
   return (
