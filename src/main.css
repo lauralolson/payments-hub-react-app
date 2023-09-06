@@ -54,7 +54,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: red;
+  --bs-body-color: #6c757d;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -70,7 +70,7 @@
   --bs-link-hover-color: #ffffff;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
-  font-family: 'Figtree' !important;
+  font-family: Figtree;
 }
 
 *,
