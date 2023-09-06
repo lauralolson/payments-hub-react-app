@@ -1,6 +1,6 @@
  @font-face {
   font-family: 'Figtree';
-  src: url('./src/assets/Figtree-VariableFont_wght.ttf')  format('truetype');
+  src: url(../src/assets/Figtree-VariableFont_wght.ttf) format('truetype');
    font-weight: 700;
    font-style: normal;
  }
@@ -70,7 +70,7 @@
   --bs-link-hover-color: #ffffff;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
-  font-family: Figtree;
+  font-family: 'Figtree';
 }
 
 *,
