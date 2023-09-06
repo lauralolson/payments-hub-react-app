@@ -70,7 +70,7 @@
   --bs-link-hover-color: #ffffff;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
-  font-family: 'Figtree';
+  font-family: 'Figtree' !important;
 }
 
 *,
